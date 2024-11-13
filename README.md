@@ -1,4 +1,4 @@
-<p> <p> こんにちは、チュオンと申します！私はコンピュータとテクノロジーに強い情熱を持っています。IT分野で新しいことを探求するのが好きで、常にスキル向上を目指して学んでいます。以下に、私の経歴やこれまでのプロジェクトについて紹介していますので、どうぞご覧ください。</p>
+<p> こんにちは、チュオンと申します！私はコンピュータとテクノロジーに強い情熱を持っています。IT分野で新しいことを探求するのが好きで、常にスキル向上を目指して学んでいます。以下に、私の経歴やこれまでのプロジェクトについて紹介していますので、どうぞご覧ください。</p>
 </p>
 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
 
@@ -21,15 +21,46 @@
 
 <h2>スキル</h2>
 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
-    ```java
+```java
+import java.util.List;
+class Chuong{
+    private String[] backend;
+    private String[] frontend;
+    private String[] database;
+    private String challenge;
+    
     public Chuong() {
         this.backend = List.of("C", "Java", "C#");
         this.frontend = List.of("HTML", "CSS");
         this.database = List.of("Oracle", "mySQL");
         this.challenge = "My challenge is Data Analysis";
     }
-    ```
+    public void getBackend() {
+        return this.backend;
+    }
+    public void getFrontend() {
+        return this.frontend;
+    }
+    public void getDatabase() {
+        return this.database;
+    }
+    public void getChallenge() {
+        return this.challenge;
+    }
+    public void show() {
+        public void show() {
+            System.out.println("Backend: " + this.backend);
+            System.out.println("Frontend: " + this.frontend);
+            System.out.println("Database: " + this.database);
+            System.out.println("Challenge: " + this.challenge);
+        }
+    }
+    public void main(String[] args) {
+        Chuong chuong = new Chuong();
+        chuong.show();
+    }
 
+```
 
 <h2>主なプロジェクト</h2>
 <p>無し</p>
