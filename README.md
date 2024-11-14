@@ -25,7 +25,7 @@
     public Chuong() {
         this.backend = List.of("C", "Java", "C#");
         this.frontend = List.of("HTML", "CSS");
-        this.database = List.of("Oracle", "mySQL");
+        this.database = List.of("MySQL");
         this.challenge = "My challenge is Data Analysis";
     }
 
